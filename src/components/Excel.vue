@@ -98,7 +98,7 @@
             <col width="60" />
           </template>
 
-          <col width="1" v-else />
+          <col width="0.1" v-else />
           <col
             v-for="(col, index) in value.cols"
             :width="col.width"
