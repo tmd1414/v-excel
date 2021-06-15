@@ -2,7 +2,7 @@
 <div>
   <div class="ve-edit" :style="{left: `${left - 1}px`, top: `${top - 1}px`}" v-if="visable">
     <textarea autofocus :value="value.text"
-      :style="[{'min-width': `${width}px`, width: `${width}px`, height: `${height}px`, 'line-height': `21px`}, cellStyle(value)]"
+      :style="[{'min-width': `${width}px`, width: `${width}px`, height: `${height}px`, 'line-height': `21px`,'background-color':`white`}, cellStyle(value)]"
       @mousedown.stop="()=>{}"
       @input="updateValue($event.target.value)"
       @keydown.stop="keydownHandler"

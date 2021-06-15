@@ -85,6 +85,11 @@ const cellStyle = (attrs) => {
     if (attrs.backgroundColor) style['background-color'] = attrs.backgroundColor
     if (attrs.align) style['text-align'] = attrs.align
     if (attrs.valign) style['vertical-align'] = attrs.valign
+    if (attrs.border) style['border'] = attrs.border
+    if (attrs.borderTop) style['border-top'] = attrs.borderTop
+    if (attrs.borderBottom) style['border-bottom'] = attrs.borderBottom
+    if (attrs.borderLeft) style['border-left'] = attrs.borderLeft
+    if (attrs.borderRight) style['border-right'] = attrs.borderRight
     if (attrs.invisable) {
       style['display'] = 'none'
     }

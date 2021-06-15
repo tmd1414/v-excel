@@ -1,10 +1,10 @@
 {
   "name": "v-excel",
   "description": "A Vue.js project",
-  "version": "1.0.0",
+  "version": "1.0.3",
   "author": "fq_li <tmd1414114@163.com>",
   "license": "MIT",
-  "private": true,
+  "private": false,
   "main": "./dist/v-excel.js",
   "scripts": {
     "dev": "cross-env NODE_ENV=development webpack-dev-server --open --hot",
