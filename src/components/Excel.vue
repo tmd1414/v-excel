@@ -163,6 +163,7 @@
         ref="eborder"
         @change="changeBorderHandler"
         @copy="copyBorderHandler"
+        :tableIndex="tableIndex"
       >
       </excel-border>
       <excel-paint-border :target="pborderTarget" />
@@ -229,6 +230,7 @@ export default {
         return {};
       },
     }, // [[{text: '', type: '', style: ''}]..]
+    tableIndex: { type: Number, default: 0, required: false },
   },
   data() {
     const { value } = this;
@@ -365,6 +367,9 @@ export default {
     },
     cellMousedownHandler(row, col, evt) {
       // console.log(this.editor)
+      this.$refs.eborder.copyHandler(evt);
+      this.$refs.eborder.mousedownHandler(evt);
+      
       if (this.editor !== null && this.editor.target) {
         // this.addHistoryValues()
         this.editor = null;
@@ -402,6 +407,7 @@ export default {
     },
     copyPasteHandler(evt) {
       // console.log('::::::::>>>', evt)
+      console.log(this.$refs)
       if (evt.ctrlKey) {
         // ctrl + c
         if (evt.keyCode === 67) {
@@ -499,15 +505,15 @@ export default {
                 if (position === "top") {
                   vr -= copyRow - i + (copyCol - j);
                 } else if (position === "left") {
-                  vc = this.value.cols[
-                    colMap[vc] - (copyRow - i + (copyCol - j))
-                  ].index;
+                  vc =
+                    this.value.cols[colMap[vc] - (copyRow - i + (copyCol - j))]
+                      .index;
                 } else if (position === "bottom") {
                   vr += j - copyCol + (i - copyRow);
                 } else if (position === "right") {
-                  vc = this.value.cols[
-                    colMap[vc] + (j - copyCol + (i - copyRow))
-                  ].index;
+                  vc =
+                    this.value.cols[colMap[vc] + (j - copyCol + (i - copyRow))]
+                      .index;
                 }
                 return `${vc}${vr}`;
               };
@@ -942,7 +948,7 @@ export default {
             if (_this.value[r][c]) {
               _this.value[r][c] = undefined;
             }
-      
+
             if (c + posMark > posIndex) {
               if (tempObj[r][c + minusPos]) {
                 _this.value[r][c] = tempObj[r][c + minusPos];

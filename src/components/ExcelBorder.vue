@@ -21,7 +21,8 @@ import {bind, unbind, mouseMoveUp} from './event.js'
 export default {
   name: 'excel-border',
   props: {
-    color: { type: String, default: 'rgb(75, 137, 255)' }
+    color: { type: String, default: 'rgb(75, 137, 255)' },
+    tableIndex:{type:Number,default:0}
   },
   data () {
     return {
@@ -38,13 +39,15 @@ export default {
     }
   },
   mounted () {
-    bind('mousedown', this.mousedownHandler)
+    //bind('mousedown', this.mousedownHandler)
   },
   destroyed () {
-    unbind('mousedown', this.mousedownHandler)
+    //unbind('mousedown', this.mousedownHandler)
   },
   methods: {
     setDashedBorderStyle (left, top, width, height) {
+     // console.log('单元格类型')
+     // console.log(this.$refs)
       const { dashedBorder } = this.$refs
       // console.log('dashedBorder:', left, top, width, height)
       dashedBorder.style.left = `${left - 1}px`
@@ -53,6 +56,7 @@ export default {
       dashedBorder.style.height = `${height}px`
     },
     copyHandler (evt) {
+      //console.log('ssss')
       const { rows, cols } = this.getActivies()
       const lastRow = rows[rows.length - 1]
       const lastCol = cols[cols.length - 1]
@@ -106,7 +110,10 @@ export default {
       })
     },
     mousedownHandler (evt) {
+      // console.log(this.tableIndex)
       // console.log('>>>>>>>>>>mousedonw')
+      // console.log(evt)
+      // console.log(evt.target.parent)
       // console.log(evt.target.getAttribute('type'))
       console.log(evt.type, evt.detail, evt.buttons)
       if (evt.detail === 1 && evt.target.getAttribute('type') === 'cell') {
@@ -166,14 +173,21 @@ export default {
       })
     },
     selectAreaOffset () {
-      // console.log('selectareaoffset>>>>')
+       console.log('selectareaoffset>>>>')
+       console.log(this)
+
+       // console.log(this.index)
       const { startTarget, endTarget } = this
       const startAttrs = getAttrs(startTarget)
       const endAttrs = getAttrs(endTarget)
       const { $parent } = this
       const { $refs } = $parent
+      // console.log('显示body')
+      // console.log($refs['body'])
+      // console.log($refs['body'][0])
       this.clearActives()
-
+      // console.log('p')
+      // console.log($refs[`cell_0_1`][0])
       let sRow = startAttrs.row
       let sCol = startAttrs.col
       let eRow = endAttrs.row
