@@ -1,6 +1,9 @@
 var path = require('path')
 var webpack = require('webpack')
 
+function resolve(dir) {
+  return path.join(__dirname, dir)
+}
 module.exports = {
   entry: (process.env.NODE_ENV === 'production') ? './src/index.js' : './src/main.js',
   output: {
