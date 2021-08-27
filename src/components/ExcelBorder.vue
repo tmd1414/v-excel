@@ -6,8 +6,8 @@
     <div class="ve-border" :style="{background: color, left: `${left - 1}px`, top: `${top - 1}px`, height: `${height}px`, width: '2px'}"></div>
     <div class="ve-area-background"
       :style="{background: 'rgba(75, 137, 255, 0.03)', left: `${left}px`, top: `${top}px`, width: `${width - 2}px`, height: `${height - 2}px`}"></div>
-    <div class="corner" :style="{background: color, left: `${left + width - 5}px`, top: `${top + height - 5}px`}"
-      @mousedown.stop="copyHandler"></div>
+<!--    <div class="corner" :style="{background: color, left: `${left + width - 5}px`, top: `${top + height - 5}px`,display:((left+width)==0||(top + height)==0)?'none':''}"
+      @mousedown.stop="copyHandler"></div> 注释掉复制-->
 
     <div class="ve-paint-border"
       :style="{left: `${left - 1}px`, top: `${top - 1}px`, width: `${width}px`, height: `${height}px`}"

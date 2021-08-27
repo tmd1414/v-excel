@@ -17,7 +17,7 @@
       <li><a href="https://github.com/vuejs/awesome-vue" target="_blank">awesome-vue</a></li>
     </ul>
     <template v-for="(e,index) in bb">
-      <v-excel v-model="e.ss" v-bind:key="index" :tableIndex="index"></v-excel>
+      <v-excel v-model="e.ss" v-bind:key="index" :tableIndex="index"  @cellMousedownHandler="mousedown" :showRowHeader="false" :showColHeader="false" :showToolBar="false"></v-excel>
     </template>
 
   </div>
@@ -27,6 +27,13 @@
   import VExcel from './components/Excel.vue'
   export default {
     name: 'app',
+    methods:{
+      mousedown(row,col,e){
+        console.log(row)
+        console.log(col)
+        console.log(e)
+      }
+    },
     data() {
       return {
         msg: 'Welcome to Your Vue.js App',
@@ -72,19 +79,19 @@
               }
             },
             rows: [{
-                height: 22
+                height: '22'
               },
               {
-                width: 200
+                width: '200px'
               },
             ],
             cols: [{
                 index: 0,
-                width: 200
+                width: '200px'
               },
               {
                 index: 1,
-                width: 200
+                width: '200px'
               }
             ]
           }

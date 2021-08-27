@@ -8,7 +8,7 @@ module.exports = {
   entry: (process.env.NODE_ENV === 'production') ? './src/index.js' : './src/main.js',
   output: {
     path: path.resolve(__dirname, './dist'),
-    publicPath: '/dist/',
+     publicPath: (process.env.NODE_ENV === 'production') ? '':'/dist/',//发布的时候请去掉，调试的时候请放开
     filename: 'v-excel.js',
     library: 'v-excel',
     libraryTarget: 'umd',
@@ -70,23 +70,23 @@ module.exports = {
         exclude: /node_modules/
       },
       {
-        test: /\.(png|jpg|gif|svg)$/,
+        test: /\.(png|jpe?g|gif|svg)(\?.*)?$/,
         loader: 'file-loader',
         options: {
-          name: '[name].[ext]?[hash]'
+          name: 'img/[name].[ext]?[hash]'
         }
       }
       ,
       {
 
-        test: /\.(gif|png|jpg|woff|svg|ttf|eot)\??.*$/,
+        test: /\.(woff2?|eot|ttf|otf)(\?.*)?$/,
         // loader: "style-loader!css-loader"
         // loader: ExtractTextPlugin.extract("style-loader", "css-loader")
         loader: {
           loader: 'url-loader',
           options: {
             limit: 8192,
-            name: '[name].[ext]'
+            name: 'fonts/[name].[ext]'
           }
         }
         // loader: 'url-loader?limit=8192&name=[name].[ext]'

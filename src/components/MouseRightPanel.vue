@@ -1,5 +1,5 @@
 <template>
-  <div class="rightmouse-panel-div" ref="contexmenu_excel">
+  <div class="rightmouse-panel-div" ref="contexmenu_excel" @mouseleave="closeRightPanel">
     <div class="panel-div-left">
       <!-- <div class='wb duiqifangsi'>
                     <span class='excel-rightmomuse-icon-css'><i class='fa fa-th'></i></span>
@@ -8,7 +8,7 @@
                 </div> -->
       <!-- <div class='wb hebingdanyuange'>
                         <span class='excel-rightmomuse-icon-css'><i class='fa fa-columns'></i></span>
-                        <span class='excel-rightmomuse-text-css'>合并单元格</span>    
+                        <span class='excel-rightmomuse-text-css'>合并单元格</span>
                     </div> -->
       <!-- <div class='wb fuzhidanyuange'>
             <span class='excel-rightmomuse-icon-css'><i class='fa fa-columns'></i></span>
@@ -66,10 +66,10 @@
       </div>
 
       <!-- <div class='wb chexiao' title='只能结构改变撤销'>
-            <span class='excel-rightmomuse-icon-css'><i class='fa fa-reply-all'></i></span><span class='excel-rightmomuse-text-css'>撤销</span>    
+            <span class='excel-rightmomuse-icon-css'><i class='fa fa-reply-all'></i></span><span class='excel-rightmomuse-text-css'>撤销</span>
         </div>
 -->
-      <div class="wb setting">
+<!--      <div class="wb setting">
         <span class="setting-item"
           ><span class="setting-text">宽</span
           ><span class="setting-input"
@@ -82,7 +82,7 @@
           ><span class="setting-text">列</span
           ><span class="setting-input"><input type="text" name="col" /></span
         ></span>
-      </div>
+      </div> -->
     </div>
     <!-- <div class='panel-div-right'>
         <div class='wb juzhong'><span class='excel-rightmomuse-icon-css'><i class='fa fa-align-justify'></i></span><span class='excel-rightmomuse-text-css'>居中</span></div>
@@ -121,7 +121,7 @@ export default {
         var menu = this.$refs.contexmenu_excel;
         menu.style.display = "block";
         var menuHeight = 184;
-        var menuWidth = 200;
+        var menuWidth = 120;
         menu.style.top =
           (y + menuHeight > innerHeight ? innerHeight - menuHeight : y) + "px";
         menu.style.left =
@@ -147,6 +147,10 @@ export default {
       var menu = this.$refs.contexmenu_excel;
       menu.style.display = "none";
     },
+    closeRightPanel(){
+      var menu = this.$refs.contexmenu_excel;
+      menu.style.display = "none";
+    }
   },
 };
 </script>
@@ -190,7 +194,7 @@ export default {
   -khtml-user-select: none; /*早期浏览器*/
   user-select: none;
   position: fixed;
-  width: 200px;
+  width: 120px;
   display: none;
 }
 
