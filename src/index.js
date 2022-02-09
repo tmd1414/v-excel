@@ -1,5 +1,4 @@
 import './excel.less'
- import 'font-awesome/css/font-awesome.css'
 import Excel from './components/Excel.vue'
 
 const install = function (Vue, opts = {}) {

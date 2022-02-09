@@ -149,10 +149,11 @@ export default {
     },
     clearActives () {
       const { $refs } = this.$parent
+      console.log(this.rowActives)
       this.rowActives.forEach(i => {
-        $refs[`row_${i}`][0].className = ''
+        ($refs[`row_${i}`]&&$refs[`row_${i}`][0]&&$refs[`row_${i}`][0].className)?$refs[`row_${i}`][0].className = '':''
         this.colActives.forEach(j => {
-          $refs[`col_h${j}`][0].className = ''
+        ($refs[`col_h${j}`]&&$refs[`col_h${j}`][0]&&$refs[`col_h${j}`][0].className)?$refs[`col_h${j}`][0].className = '':''
           // $refs[`cell_${i}_${j}`][0].className = ''
         })
       })

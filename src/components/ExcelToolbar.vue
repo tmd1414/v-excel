@@ -153,7 +153,13 @@
         </div>
       </dropdown> -->
       <div class="ve-item-separator"></div>
-      <item-icon icon="circles" @click="addrow"></item-icon>
+<!--      <item-icon icon="table-border-up" @click="selectedHandler('borderTop', '2px solid #000000')"></item-icon>
+      <item-icon icon="table-border-right" @click="addrow"></item-icon>
+      <item-icon icon="table-border-down" @click="addrow"></item-icon>
+      <item-icon icon="table-border-left" @click="addrow"></item-icon>
+      <item-icon icon="table-border-out" @click="addrow"></item-icon> -->
+      <item-icon icon="table-border-all" @click="selectedHandler('border', '2px solid #000000')"></item-icon>
+      <item-icon icon="table-border-none" @click="selectedHandler('border', '')"></item-icon>
     </div>
   </div>
 </template>
@@ -229,6 +235,9 @@ export default {
       this.attrs[key] = v;
       // this.$emit('change', [{key, v, isDefault: v === defaultCellAttrs[key]}])
       const nAttrs = {};
+      console.log('this.attrs[key]')
+      console.log(this.attrs[key])
+      console.log(v)
       Object.keys(this.attrs).forEach((k) => {
         if (defaultCellAttrs[k] !== this.attrs[k]) {
           nAttrs[k] = this.attrs[k];

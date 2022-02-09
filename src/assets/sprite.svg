@@ -1,50 +1,514 @@
-<?xml version='1.0' encoding='UTF-8'?><!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd"><svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" version="1.1" x="0" y="0" width="262px" height="72px" viewBox="0 0 262 72" preserveAspectRatio="none">
-<g xmlns="http://www.w3.org/2000/svg" transform="translate(0,0)"><path fill="#000000" fill-rule="evenodd" d="M11.5656391,4.43436088 L9,7 L16,7 L16,0 L13.0418424,2.95815758 C11.5936787,1.73635959 9.72260775,1 7.67955083,1 C4.22126258,1 1.25575599,3.10984908 0,6 L2,7 C2.93658775,4.60974406 5.12943697,3.08011229 7.67955083,3 C9.14881247,3.0528747 10.4994783,3.57862053 11.5656391,4.43436088 Z" transform="matrix(-1 0 0 1 17 5)"/>
-</g>
-<g xmlns="http://www.w3.org/2000/svg" transform="translate(18,0)"><path fill="#000000" fill-rule="evenodd" d="M11.5656391,4.43436088 L9,7 L16,7 L16,0 L13.0418424,2.95815758 C11.5936787,1.73635959 9.72260775,1 7.67955083,1 C4.22126258,1 1.25575599,3.10984908 0,6 L2,7 C2.93658775,4.60974406 5.12943697,3.08011229 7.67955083,3 C9.14881247,3.0528747 10.4994783,3.57862053 11.5656391,4.43436088 Z" transform="translate(1 5)"/>
-</g>
-<g xmlns="http://www.w3.org/2000/svg" transform="translate(36,0)"><path fill="#000000" fill-rule="evenodd" d="M13,14 L3,14 L3,11 L0,11 L0,6.00591905 C0,4.89808055 0.894513756,4 1.99406028,4 L14.0059397,4 C15.1072288,4 16,4.88655484 16,6.00591905 L16,11 L13,11 L13,14 Z M5,9 L11,9 L11,12 L5,12 L5,9 Z M3,0 L13,0 L13,3 L3,3 L3,0 Z M12,6 L14,6 L14,8 L12,8 L12,6 Z" transform="translate(1 2)"/>
-</g>
-<g xmlns="http://www.w3.org/2000/svg" transform="translate(54,0)"><path fill="#000000" fill-rule="evenodd" d="M9,0 L1,0 C0.45,0 0,0.45 0,1 L0,4 C0,4.55 0.45,5 1,5 L9,5 C9.55,5 10,4.55 10,4 L10,3 L11,3 L11,6 L4,6 L4,14 L6,14 L6,8 L13,8 L13,2 L10,2 L10,1 C10,0.45 9.55,0 9,0 Z" transform="translate(3 2)"/>
-</g>
-<g xmlns="http://www.w3.org/2000/svg" transform="translate(72,0)"><path fill="#000000" fill-rule="evenodd" d="M0.27,1.55 L5.43,6.7 L3,12 L5.5,12 L7.14,8.42 L11.73,13 L13,11.73 L1.55,0.27 L0.27,1.55 L0.27,1.55 Z M3.82,0 L5.82,2 L7.58,2 L7.03,3.21 L8.74,4.92 L10.08,2 L14,2 L14,0 L3.82,0 L3.82,0 Z" transform="translate(2 3)"/>
-</g>
-<g xmlns="http://www.w3.org/2000/svg" transform="translate(90,0)"><path fill="#000000" fill-rule="evenodd" d="M9,3.5 C9,1.57 7.43,0 5.5,0 L1.77635684e-15,0 L1.77635684e-15,12 L6.25,12 C8.04,12 9.5,10.54 9.5,8.75 C9.5,7.45 8.73,6.34 7.63,5.82 C8.46,5.24 9,4.38 9,3.5 Z M5,2 C5.82999992,2 6.5,2.67 6.5,3.5 C6.5,4.33 5.82999992,5 5,5 L3,5 L3,2 L5,2 Z M3,10 L3,7 L5.5,7 C6.32999992,7 7,7.67 7,8.5 C7,9.33 6.32999992,10 5.5,10 L3,10 Z" transform="translate(4 3)"/>
-</g>
-<g xmlns="http://www.w3.org/2000/svg" transform="translate(108,0)"><polygon fill="#000000" fill-rule="evenodd" points="4 0 4 2 6.58 2 2.92 10 0 10 0 12 8 12 8 10 5.42 10 9.08 2 12 2 12 0" transform="translate(3 3)"/>
-</g>
-<g xmlns="http://www.w3.org/2000/svg" transform="translate(126,0)"><path fill="#000000" d="M6,12 C8.76,12 11,9.76 11,7 L11,0 L9,0 L9,7 C9,8.75029916 7.49912807,10 6,10 C4.50087193,10 3,8.75837486 3,7 L3,0 L1,0 L1,7 C1,9.76 3.24,12 6,12 Z M0,13 L0,15 L12,15 L12,13 L0,13 Z" transform="translate(3 3)"/>
-</g>
-<g xmlns="http://www.w3.org/2000/svg" transform="translate(144,0)"><path fill="#010101" fill-rule="evenodd" d="M2.8875,3.06 C2.8875,2.6025 2.985,2.18625 3.18375,1.8075 C3.3825,1.42875 3.66,1.10625 4.02,0.84 C4.38,0.57375 4.80375,0.3675 5.29875,0.22125 C5.79375,0.075 6.33375,0 6.92625,0 C7.53375,0 8.085,0.0825 8.58,0.25125 C9.075,0.42 9.49875,0.6525 9.85125,0.95625 C10.20375,1.25625 10.47375,1.6125 10.665,2.02875 C10.85625,2.44125 10.95,2.895 10.95,3.38625 L8.6925,3.38625 C8.6925,3.1575 8.655,2.94375 8.58375,2.74875 C8.5125,2.55 8.4,2.38125 8.25,2.2425 C8.1,2.10375 7.9125,1.99125 7.6875,1.91625 C7.4625,1.8375 7.19625,1.8 6.88875,1.8 C6.5925,1.8 6.3375,1.83375 6.11625,1.8975 C5.89875,1.96125 5.71875,2.05125 5.57625,2.1675 C5.43375,2.28375 5.325,2.41875 5.25375,2.5725 C5.1825,2.72625 5.145,2.895 5.145,3.0675 C5.145,3.4275 5.32875,3.73125 5.69625,3.975 C5.71780203,3.98908066 5.73942012,4.00311728 5.76118357,4.01733315 C6.02342923,4.18863185 6.5,4.5 7,5 L4,5 C4,5 3.21375,4.37625 3.17625,4.30875 C2.985,3.9525 2.8875,3.53625 2.8875,3.06 Z M14,6 L0,6 L0,8 L7.21875,8 C7.35375,8.0525 7.51875,8.105 7.63125,8.15375 C7.90875,8.2775 8.12625,8.40875 8.28375,8.53625 C8.44125,8.6675 8.54625,8.81 8.6025,8.96 C8.65875,9.11375 8.685,9.28625 8.685,9.47375 C8.685,9.65 8.65125,9.815 8.58375,9.965 C8.51625,10.11875 8.41125,10.25 8.2725,10.35875 C8.13375,10.4675 7.95375,10.55375 7.74,10.6175 C7.5225,10.68125 7.27125,10.71125 6.97875,10.71125 C6.6525,10.71125 6.35625,10.6775 6.09,10.61375 C5.82375,10.55 5.59875,10.445 5.41125,10.3025 C5.22375,10.16 5.0775,9.9725 4.9725,9.74375 C4.8675,9.515 4.78125,9.17 4.78125,9 L2.55,9 C2.55,9.2525 2.61,9.6875 2.72625,10.025 C2.8425,10.3625 3.0075,10.66625 3.21375,10.9325 C3.42,11.19875 3.6675,11.4275 3.94875,11.6225 C4.23,11.8175 4.53375,11.9825 4.86375,12.11 C5.19375,12.24125 5.535,12.33875 5.89875,12.39875 C6.25875,12.4625 6.6225,12.4925 6.9825,12.4925 C7.5825,12.4925 8.13,12.425 8.6175,12.28625 C9.105,12.1475 9.525,11.94875 9.87,11.69375 C10.215,11.435 10.48125,11.12 10.6725,10.74125 C10.86375,10.3625 10.95375,9.935 10.95375,9.455 C10.95375,9.005 10.875,8.6 10.72125,8.24375 C10.68375,8.1575 10.6425,8.075 10.59375,7.9925 L14,8 L14,6 Z" transform="translate(2 3)"/>
-</g>
-<g xmlns="http://www.w3.org/2000/svg" transform="translate(162,0)"><path fill="#000000" fill-rule="evenodd" d="M7,0 L5,0 L0.5,12 L2.5,12 L3.62,9 L8.37,9 L9.49,12 L11.49,12 L7,0 L7,0 Z M4.38,7 L6,2.67 L7.62,7 L4.38,7 L4.38,7 Z" transform="translate(3 1)"/>
-</g>
-<g xmlns="http://www.w3.org/2000/svg" transform="translate(180,0)"><g fill="none" fill-rule="evenodd">
-    <path fill="#000000" d="M14.5,8.87 C14.5,8.87 13,10.49 13,11.49 C13,12.32 13.67,12.99 14.5,12.99 C15.33,12.99 16,12.32 16,11.49 C16,10.5 14.5,8.87 14.5,8.87 L14.5,8.87 Z M12.71,6.79 L5.91,0 L4.85,1.06 L6.44,2.65 L2.29,6.79 C1.9,7.18 1.9,7.81 2.29,8.2 L6.79,12.7 C6.99,12.9 7.24,13 7.5,13 C7.76,13 8.01,12.9 8.21,12.71 L12.71,8.21 C13.1,7.82 13.1,7.18 12.71,6.79 L12.71,6.79 Z M4.21,7 L7.5,3.71 L10.79,7 L4.21,7 L4.21,7 Z"/>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.1"
+   x="0"
+   y="0"
+   width="262px"
+   height="72px"
+   viewBox="0 0 262 72"
+   preserveAspectRatio="none"
+   id="svg206"
+   sodipodi:docname="sprite-1.svg"
+   inkscape:version="1.0.2-2 (e86c870879, 2021-01-15)">
+  <metadata
+     id="metadata212">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs210" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1850"
+     inkscape:window-height="993"
+     id="namedview208"
+     showgrid="true"
+     inkscape:zoom="4.2061069"
+     inkscape:cx="131"
+     inkscape:cy="36"
+     inkscape:window-x="106"
+     inkscape:window-y="98"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg206"
+     inkscape:document-rotation="0">
+    <inkscape:grid
+       type="xygrid"
+       id="grid3754" />
+  </sodipodi:namedview>
+  <g
+     transform="translate(0,0)"
+     id="g114">
+    <path
+       fill="#000000"
+       fill-rule="evenodd"
+       d="M11.5656391,4.43436088 L9,7 L16,7 L16,0 L13.0418424,2.95815758 C11.5936787,1.73635959 9.72260775,1 7.67955083,1 C4.22126258,1 1.25575599,3.10984908 0,6 L2,7 C2.93658775,4.60974406 5.12943697,3.08011229 7.67955083,3 C9.14881247,3.0528747 10.4994783,3.57862053 11.5656391,4.43436088 Z"
+       transform="matrix(-1 0 0 1 17 5)"
+       id="path112" />
   </g>
-</g>
-<g xmlns="http://www.w3.org/2000/svg" transform="translate(198,0)"><path fill="#000000" fill-rule="evenodd" d="M3,6 L1,6 L1,2 L8,2 L8,4 L3,4 L3,6 Z M10,4 L10,2 L17,2 L17,6 L15,6 L15,4 L10,4 Z M10,14 L15,14 L15,12 L17,12 L17,16 L10,16 L10,14 Z M1,12 L3,12 L3,14 L8,14 L8,16 L1,16 L1,12 Z M1,8 L5,8 L5,6 L8,9 L5,12 L5,10 L1,10 L1,8 Z M10,9 L13,6 L13,8 L17,8 L17,10 L13,10 L13,12 L10,9 Z"/>
-</g>
-<g xmlns="http://www.w3.org/2000/svg" transform="translate(216,0)"><path fill="#000000" fill-rule="evenodd" d="M0,14 L10,14 L10,12 L0,12 L0,14 Z M10,4 L0,4 L0,6 L10,6 L10,4 Z M0,0 L0,2 L14,2 L14,0 L0,0 Z M0,10 L14,10 L14,8 L0,8 L0,10 Z" transform="translate(2 2)"/>
-</g>
-<g xmlns="http://www.w3.org/2000/svg" transform="translate(234,0)"><path fill="#000000" fill-rule="evenodd" d="M2,12 L2,14 L12,14 L12,12 L2,12 Z M2,4 L2,6 L12,6 L12,4 L2,4 Z M0,10 L14,10 L14,8 L0,8 L0,10 Z M0,0 L0,2 L14,2 L14,0 L0,0 Z" transform="translate(2 2)"/>
-</g>
-<g xmlns="http://www.w3.org/2000/svg" transform="translate(0,18)"><path fill="#000000" fill-rule="evenodd" d="M4,14 L14,14 L14,12 L4,12 L4,14 Z M0,10 L14,10 L14,8 L0,8 L0,10 Z M0,0 L0,2 L14,2 L14,0 L0,0 Z M4,6 L14,6 L14,4 L4,4 L4,6 Z" transform="translate(2 2)"/>
-</g>
-<g xmlns="http://www.w3.org/2000/svg" transform="translate(18,18)"><path fill="#000000" fill-rule="evenodd" d="M0,0 L0,2 L12,2 L12,0 L0,0 L0,0 Z M2.5,7 L5,7 L5,14 L7,14 L7,7 L9.5,7 L6,3.5 L2.5,7 L2.5,7 Z" transform="translate(3 2)"/>
-</g>
-<g xmlns="http://www.w3.org/2000/svg" transform="translate(36,18)"><path fill="#000000" fill-rule="evenodd" d="M9.5,3 L7,3 L7,0 L5,0 L5,3 L2.5,3 L6,6.5 L9.5,3 L9.5,3 Z M0,8 L0,10 L12,10 L12,8 L0,8 L0,8 Z M2.5,15 L5,15 L5,18 L7,18 L7,15 L9.5,15 L6,11.5 L2.5,15 L2.5,15 Z" transform="translate(3)"/>
-</g>
-<g xmlns="http://www.w3.org/2000/svg" transform="translate(54,18)"><path fill="#000000" fill-rule="evenodd" d="M9.5,7 L7,7 L7,0 L5,0 L5,7 L2.5,7 L6,10.5 L9.5,7 L9.5,7 Z M0,12 L0,14 L12,14 L12,12 L0,12 L0,12 Z" transform="translate(3 2)"/>
-</g>
-<g xmlns="http://www.w3.org/2000/svg" transform="translate(72,18)"><path fill="#000000" fill-rule="evenodd" d="M14,0 L0,0 L0,2 L14,2 L14,0 Z M0,12 L4,12 L4,10 L0,10 L0,12 Z M11.5,5 L0,5 L0,7 L11.75,7 C12.58,7 13.25,7.67 13.25,8.5 C13.25,9.33 12.58,10 11.75,10 L9,10 L9,8 L6,11 L9,14 L9,12 L11.5,12 C13.43,12 15,10.43 15,8.5 C15,6.57 13.43,5 11.5,5 Z" transform="translate(2 3)"/>
-</g>
-<g xmlns="http://www.w3.org/2000/svg" transform="translate(90,18)"><path fill="#000000" fill-rule="evenodd" d="M0,0 L0,1 L6,7 L6,12 L8,11 L8,7 L14,1 L14,0 L0,0 Z M4,3 L10,3 L7,6 L4,3 Z" transform="translate(2 3)"/>
-</g>
-<g xmlns="http://www.w3.org/2000/svg" transform="translate(108,18)"><polygon fill="#000000" fill-rule="evenodd" points="10 0 0 0 0 1.8 5.5 7 0 12.2 0 14 10 14 10 12 3.1 12 8 7 3.1 2 10 2" transform="translate(4 2)"/>
-</g>
-<g xmlns="http://www.w3.org/2000/svg" transform="translate(126,18)"><polygon fill="#000000" fill-rule="evenodd" points="0 0 4 4 8 0" transform="translate(5 7)"/>
-</g>
-<g xmlns="http://www.w3.org/2000/svg" transform="translate(144,18)"><polygon fill="#000000" fill-rule="evenodd" points="-2 2 2 6 6 2" transform="rotate(-90 8 3)"/>
-</g>
+  <g
+     transform="translate(18,0)"
+     id="g118">
+    <path
+       fill="#000000"
+       fill-rule="evenodd"
+       d="M11.5656391,4.43436088 L9,7 L16,7 L16,0 L13.0418424,2.95815758 C11.5936787,1.73635959 9.72260775,1 7.67955083,1 C4.22126258,1 1.25575599,3.10984908 0,6 L2,7 C2.93658775,4.60974406 5.12943697,3.08011229 7.67955083,3 C9.14881247,3.0528747 10.4994783,3.57862053 11.5656391,4.43436088 Z"
+       transform="translate(1 5)"
+       id="path116" />
+  </g>
+  <g
+     transform="translate(36,0)"
+     id="g122">
+    <path
+       fill="#000000"
+       fill-rule="evenodd"
+       d="M13,14 L3,14 L3,11 L0,11 L0,6.00591905 C0,4.89808055 0.894513756,4 1.99406028,4 L14.0059397,4 C15.1072288,4 16,4.88655484 16,6.00591905 L16,11 L13,11 L13,14 Z M5,9 L11,9 L11,12 L5,12 L5,9 Z M3,0 L13,0 L13,3 L3,3 L3,0 Z M12,6 L14,6 L14,8 L12,8 L12,6 Z"
+       transform="translate(1 2)"
+       id="path120" />
+  </g>
+  <g
+     transform="translate(54,0)"
+     id="g126">
+    <path
+       fill="#000000"
+       fill-rule="evenodd"
+       d="M9,0 L1,0 C0.45,0 0,0.45 0,1 L0,4 C0,4.55 0.45,5 1,5 L9,5 C9.55,5 10,4.55 10,4 L10,3 L11,3 L11,6 L4,6 L4,14 L6,14 L6,8 L13,8 L13,2 L10,2 L10,1 C10,0.45 9.55,0 9,0 Z"
+       transform="translate(3 2)"
+       id="path124" />
+  </g>
+  <g
+     transform="translate(72,0)"
+     id="g130">
+    <path
+       fill="#000000"
+       fill-rule="evenodd"
+       d="M0.27,1.55 L5.43,6.7 L3,12 L5.5,12 L7.14,8.42 L11.73,13 L13,11.73 L1.55,0.27 L0.27,1.55 L0.27,1.55 Z M3.82,0 L5.82,2 L7.58,2 L7.03,3.21 L8.74,4.92 L10.08,2 L14,2 L14,0 L3.82,0 L3.82,0 Z"
+       transform="translate(2 3)"
+       id="path128" />
+  </g>
+  <g
+     transform="translate(90,0)"
+     id="g134">
+    <path
+       fill="#000000"
+       fill-rule="evenodd"
+       d="M9,3.5 C9,1.57 7.43,0 5.5,0 L1.77635684e-15,0 L1.77635684e-15,12 L6.25,12 C8.04,12 9.5,10.54 9.5,8.75 C9.5,7.45 8.73,6.34 7.63,5.82 C8.46,5.24 9,4.38 9,3.5 Z M5,2 C5.82999992,2 6.5,2.67 6.5,3.5 C6.5,4.33 5.82999992,5 5,5 L3,5 L3,2 L5,2 Z M3,10 L3,7 L5.5,7 C6.32999992,7 7,7.67 7,8.5 C7,9.33 6.32999992,10 5.5,10 L3,10 Z"
+       transform="translate(4 3)"
+       id="path132" />
+  </g>
+  <g
+     transform="translate(108,0)"
+     id="g138">
+    <polygon
+       fill="#000000"
+       fill-rule="evenodd"
+       points="4 0 4 2 6.58 2 2.92 10 0 10 0 12 8 12 8 10 5.42 10 9.08 2 12 2 12 0"
+       transform="translate(3 3)"
+       id="polygon136" />
+  </g>
+  <g
+     transform="translate(126,0)"
+     id="g142">
+    <path
+       fill="#000000"
+       d="M6,12 C8.76,12 11,9.76 11,7 L11,0 L9,0 L9,7 C9,8.75029916 7.49912807,10 6,10 C4.50087193,10 3,8.75837486 3,7 L3,0 L1,0 L1,7 C1,9.76 3.24,12 6,12 Z M0,13 L0,15 L12,15 L12,13 L0,13 Z"
+       transform="translate(3 3)"
+       id="path140" />
+  </g>
+  <g
+     transform="translate(144,0)"
+     id="g146">
+    <path
+       fill="#010101"
+       fill-rule="evenodd"
+       d="M2.8875,3.06 C2.8875,2.6025 2.985,2.18625 3.18375,1.8075 C3.3825,1.42875 3.66,1.10625 4.02,0.84 C4.38,0.57375 4.80375,0.3675 5.29875,0.22125 C5.79375,0.075 6.33375,0 6.92625,0 C7.53375,0 8.085,0.0825 8.58,0.25125 C9.075,0.42 9.49875,0.6525 9.85125,0.95625 C10.20375,1.25625 10.47375,1.6125 10.665,2.02875 C10.85625,2.44125 10.95,2.895 10.95,3.38625 L8.6925,3.38625 C8.6925,3.1575 8.655,2.94375 8.58375,2.74875 C8.5125,2.55 8.4,2.38125 8.25,2.2425 C8.1,2.10375 7.9125,1.99125 7.6875,1.91625 C7.4625,1.8375 7.19625,1.8 6.88875,1.8 C6.5925,1.8 6.3375,1.83375 6.11625,1.8975 C5.89875,1.96125 5.71875,2.05125 5.57625,2.1675 C5.43375,2.28375 5.325,2.41875 5.25375,2.5725 C5.1825,2.72625 5.145,2.895 5.145,3.0675 C5.145,3.4275 5.32875,3.73125 5.69625,3.975 C5.71780203,3.98908066 5.73942012,4.00311728 5.76118357,4.01733315 C6.02342923,4.18863185 6.5,4.5 7,5 L4,5 C4,5 3.21375,4.37625 3.17625,4.30875 C2.985,3.9525 2.8875,3.53625 2.8875,3.06 Z M14,6 L0,6 L0,8 L7.21875,8 C7.35375,8.0525 7.51875,8.105 7.63125,8.15375 C7.90875,8.2775 8.12625,8.40875 8.28375,8.53625 C8.44125,8.6675 8.54625,8.81 8.6025,8.96 C8.65875,9.11375 8.685,9.28625 8.685,9.47375 C8.685,9.65 8.65125,9.815 8.58375,9.965 C8.51625,10.11875 8.41125,10.25 8.2725,10.35875 C8.13375,10.4675 7.95375,10.55375 7.74,10.6175 C7.5225,10.68125 7.27125,10.71125 6.97875,10.71125 C6.6525,10.71125 6.35625,10.6775 6.09,10.61375 C5.82375,10.55 5.59875,10.445 5.41125,10.3025 C5.22375,10.16 5.0775,9.9725 4.9725,9.74375 C4.8675,9.515 4.78125,9.17 4.78125,9 L2.55,9 C2.55,9.2525 2.61,9.6875 2.72625,10.025 C2.8425,10.3625 3.0075,10.66625 3.21375,10.9325 C3.42,11.19875 3.6675,11.4275 3.94875,11.6225 C4.23,11.8175 4.53375,11.9825 4.86375,12.11 C5.19375,12.24125 5.535,12.33875 5.89875,12.39875 C6.25875,12.4625 6.6225,12.4925 6.9825,12.4925 C7.5825,12.4925 8.13,12.425 8.6175,12.28625 C9.105,12.1475 9.525,11.94875 9.87,11.69375 C10.215,11.435 10.48125,11.12 10.6725,10.74125 C10.86375,10.3625 10.95375,9.935 10.95375,9.455 C10.95375,9.005 10.875,8.6 10.72125,8.24375 C10.68375,8.1575 10.6425,8.075 10.59375,7.9925 L14,8 L14,6 Z"
+       transform="translate(2 3)"
+       id="path144" />
+  </g>
+  <g
+     transform="translate(162,0)"
+     id="g150">
+    <path
+       fill="#000000"
+       fill-rule="evenodd"
+       d="M7,0 L5,0 L0.5,12 L2.5,12 L3.62,9 L8.37,9 L9.49,12 L11.49,12 L7,0 L7,0 Z M4.38,7 L6,2.67 L7.62,7 L4.38,7 L4.38,7 Z"
+       transform="translate(3 1)"
+       id="path148" />
+  </g>
+  <g
+     transform="translate(180,0)"
+     id="g156">
+    <g
+       fill="none"
+       fill-rule="evenodd"
+       id="g154">
+      <path
+         fill="#000000"
+         d="M14.5,8.87 C14.5,8.87 13,10.49 13,11.49 C13,12.32 13.67,12.99 14.5,12.99 C15.33,12.99 16,12.32 16,11.49 C16,10.5 14.5,8.87 14.5,8.87 L14.5,8.87 Z M12.71,6.79 L5.91,0 L4.85,1.06 L6.44,2.65 L2.29,6.79 C1.9,7.18 1.9,7.81 2.29,8.2 L6.79,12.7 C6.99,12.9 7.24,13 7.5,13 C7.76,13 8.01,12.9 8.21,12.71 L12.71,8.21 C13.1,7.82 13.1,7.18 12.71,6.79 L12.71,6.79 Z M4.21,7 L7.5,3.71 L10.79,7 L4.21,7 L4.21,7 Z"
+         id="path152" />
+    </g>
+  </g>
+  <g
+     transform="translate(198,0)"
+     id="g160">
+    <path
+       fill="#000000"
+       fill-rule="evenodd"
+       d="M3,6 L1,6 L1,2 L8,2 L8,4 L3,4 L3,6 Z M10,4 L10,2 L17,2 L17,6 L15,6 L15,4 L10,4 Z M10,14 L15,14 L15,12 L17,12 L17,16 L10,16 L10,14 Z M1,12 L3,12 L3,14 L8,14 L8,16 L1,16 L1,12 Z M1,8 L5,8 L5,6 L8,9 L5,12 L5,10 L1,10 L1,8 Z M10,9 L13,6 L13,8 L17,8 L17,10 L13,10 L13,12 L10,9 Z"
+       id="path158" />
+  </g>
+  <g
+     transform="translate(216,0)"
+     id="g164">
+    <path
+       fill="#000000"
+       fill-rule="evenodd"
+       d="M0,14 L10,14 L10,12 L0,12 L0,14 Z M10,4 L0,4 L0,6 L10,6 L10,4 Z M0,0 L0,2 L14,2 L14,0 L0,0 Z M0,10 L14,10 L14,8 L0,8 L0,10 Z"
+       transform="translate(2 2)"
+       id="path162" />
+  </g>
+  <g
+     transform="translate(234,0)"
+     id="g168">
+    <path
+       fill="#000000"
+       fill-rule="evenodd"
+       d="M2,12 L2,14 L12,14 L12,12 L2,12 Z M2,4 L2,6 L12,6 L12,4 L2,4 Z M0,10 L14,10 L14,8 L0,8 L0,10 Z M0,0 L0,2 L14,2 L14,0 L0,0 Z"
+       transform="translate(2 2)"
+       id="path166" />
+  </g>
+  <g
+     transform="translate(0,18)"
+     id="g172">
+    <path
+       fill="#000000"
+       fill-rule="evenodd"
+       d="M4,14 L14,14 L14,12 L4,12 L4,14 Z M0,10 L14,10 L14,8 L0,8 L0,10 Z M0,0 L0,2 L14,2 L14,0 L0,0 Z M4,6 L14,6 L14,4 L4,4 L4,6 Z"
+       transform="translate(2 2)"
+       id="path170" />
+  </g>
+  <g
+     transform="translate(18,18)"
+     id="g176">
+    <path
+       fill="#000000"
+       fill-rule="evenodd"
+       d="M0,0 L0,2 L12,2 L12,0 L0,0 L0,0 Z M2.5,7 L5,7 L5,14 L7,14 L7,7 L9.5,7 L6,3.5 L2.5,7 L2.5,7 Z"
+       transform="translate(3 2)"
+       id="path174" />
+  </g>
+  <g
+     transform="translate(36,18)"
+     id="g180">
+    <path
+       fill="#000000"
+       fill-rule="evenodd"
+       d="M9.5,3 L7,3 L7,0 L5,0 L5,3 L2.5,3 L6,6.5 L9.5,3 L9.5,3 Z M0,8 L0,10 L12,10 L12,8 L0,8 L0,8 Z M2.5,15 L5,15 L5,18 L7,18 L7,15 L9.5,15 L6,11.5 L2.5,15 L2.5,15 Z"
+       transform="translate(3)"
+       id="path178" />
+  </g>
+  <g
+     transform="translate(54,18)"
+     id="g184">
+    <path
+       fill="#000000"
+       fill-rule="evenodd"
+       d="M9.5,7 L7,7 L7,0 L5,0 L5,7 L2.5,7 L6,10.5 L9.5,7 L9.5,7 Z M0,12 L0,14 L12,14 L12,12 L0,12 L0,12 Z"
+       transform="translate(3 2)"
+       id="path182" />
+  </g>
+  <g
+     transform="translate(72,18)"
+     id="g188">
+    <path
+       fill="#000000"
+       fill-rule="evenodd"
+       d="M14,0 L0,0 L0,2 L14,2 L14,0 Z M0,12 L4,12 L4,10 L0,10 L0,12 Z M11.5,5 L0,5 L0,7 L11.75,7 C12.58,7 13.25,7.67 13.25,8.5 C13.25,9.33 12.58,10 11.75,10 L9,10 L9,8 L6,11 L9,14 L9,12 L11.5,12 C13.43,12 15,10.43 15,8.5 C15,6.57 13.43,5 11.5,5 Z"
+       transform="translate(2 3)"
+       id="path186" />
+  </g>
+  <g
+     transform="translate(90,18)"
+     id="g192">
+    <path
+       fill="#000000"
+       fill-rule="evenodd"
+       d="M0,0 L0,1 L6,7 L6,12 L8,11 L8,7 L14,1 L14,0 L0,0 Z M4,3 L10,3 L7,6 L4,3 Z"
+       transform="translate(2 3)"
+       id="path190" />
+  </g>
+  <g
+     transform="translate(108,18)"
+     id="g196">
+    <polygon
+       fill="#000000"
+       fill-rule="evenodd"
+       points="10 0 0 0 0 1.8 5.5 7 0 12.2 0 14 10 14 10 12 3.1 12 8 7 3.1 2 10 2"
+       transform="translate(4 2)"
+       id="polygon194" />
+  </g>
+  <g
+     transform="translate(126,18)"
+     id="g200">
+    <polygon
+       fill="#000000"
+       fill-rule="evenodd"
+       points="0 0 4 4 8 0"
+       transform="translate(5 7)"
+       id="polygon198" />
+  </g>
+  <g
+     transform="translate(144,18)"
+     id="g204">
+    <polygon
+       fill="#000000"
+       fill-rule="evenodd"
+       points="-2 2 2 6 6 2"
+       transform="rotate(-90 8 3)"
+       id="polygon202" />
+  </g>
+  <g
+     transform="translate(163,18)"
+     id="g2186">
+    <g
+       fill="#000000"
+       fill-rule="evenodd"
+       transform="translate(2,2)"
+       id="g2184">
+      <path
+         d="M 3,8 H 5 V 6 H 3 Z M 0,14 H 2 V 12 H 0 Z m 6,0 H 8 V 12 H 6 Z M 6,11 H 8 V 9 H 6 Z M 3,14 H 5 V 12 H 3 Z M 0,11 H 2 V 9 H 0 Z M 6,8 H 8 V 6 H 6 Z M 0,5 H 2 V 3 H 0 Z M 0,8 H 2 V 6 H 0 Z m 12,0 h 2 V 6 h -2 z m 0,3 h 2 V 9 h -2 z m 0,-6 h 2 V 3 H 12 Z M 6,5 H 8 V 3 H 6 Z m 3,9 h 2 V 12 H 9 Z M 9,8 h 2 V 6 H 9 Z m 3,6 h 2 v -2 h -2 z"
+         opacity="0.54"
+         id="path2180" />
+      <polygon
+         points="0,0 0,2 14,2 14,0 "
+         id="polygon2182" />
+    </g>
+  </g>
+  <g
+     transform="translate(181,18)"
+     id="g2178">
+    <g
+       fill="#000000"
+       fill-rule="evenodd"
+       transform="translate(2,2)"
+       id="g2176">
+      <path
+         d="M 0,2 H 2 V 0 H 0 Z M 3,2 H 5 V 0 H 3 Z M 3,8 H 5 V 6 H 3 Z m 0,6 H 5 V 12 H 3 Z M 0,5 H 2 V 3 H 0 Z M 0,8 H 2 V 6 H 0 Z m 0,6 H 2 V 12 H 0 Z M 0,11 H 2 V 9 H 0 Z M 9,8 h 2 V 6 H 9 Z M 6,14 H 8 V 12 H 6 Z m 3,0 h 2 V 12 H 9 Z M 6,2 H 8 V 0 H 6 Z m 3,0 h 2 V 0 H 9 Z M 6,11 H 8 V 9 H 6 Z M 6,5 H 8 V 3 H 6 Z M 6,8 H 8 V 6 H 6 Z"
+         opacity="0.54"
+         id="path2172" />
+      <polygon
+         points="12,0 12,14 14,14 14,0 "
+         id="polygon2174" />
+    </g>
+  </g>
+  <g
+     transform="translate(197,18)"
+     id="g2134">
+    <g
+       fill="#000000"
+       fill-rule="evenodd"
+       transform="translate(2,2)"
+       id="g2132">
+      <path
+         d="M 5,0 H 3 V 2 H 5 Z M 8,6 H 6 V 8 H 8 Z M 8,9 H 6 v 2 H 8 Z M 11,6 H 9 v 2 h 2 z M 5,6 H 3 V 8 H 5 Z M 11,0 H 9 v 2 h 2 z M 8,3 H 6 V 5 H 8 Z M 8,0 H 6 V 2 H 8 Z M 2,9 H 0 v 2 h 2 z m 10,2 h 2 V 9 h -2 z m 0,-6 h 2 V 3 h -2 z m 0,3 h 2 V 6 h -2 z m 0,-8 v 2 h 2 V 0 Z M 2,0 H 0 V 2 H 2 Z M 2,3 H 0 V 5 H 2 Z M 2,6 H 0 v 2 h 2 z"
+         opacity="0.54"
+         id="path2128" />
+      <polygon
+         points="0,14 14,14 14,12 0,12 "
+         id="polygon2130" />
+    </g>
+  </g>
+  <g
+     transform="translate(216,18)"
+     id="g2158">
+    <g
+       fill="#000000"
+       fill-rule="evenodd"
+       transform="translate(2,2)"
+       id="g2156">
+      <path
+         d="M 6,8 H 8 V 6 H 6 Z M 6,5 H 8 V 3 H 6 Z m 0,6 H 8 V 9 H 6 Z m 0,3 H 8 V 12 H 6 Z M 3,14 H 5 V 12 H 3 Z M 3,2 H 5 V 0 H 3 Z M 3,8 H 5 V 6 H 3 Z m 9,6 h 2 v -2 h -2 z m 0,-6 h 2 V 6 h -2 z m 0,3 h 2 V 9 h -2 z m 0,-6 h 2 V 3 H 12 Z M 6,2 H 8 V 0 H 6 Z m 6,-2 v 2 h 2 V 0 Z M 9,14 h 2 V 12 H 9 Z M 9,8 h 2 V 6 H 9 Z M 9,2 h 2 V 0 H 9 Z"
+         opacity="0.54"
+         id="path2152" />
+      <polygon
+         points="2,14 2,0 0,0 0,14 "
+         id="polygon2154" />
+    </g>
+  </g>
+  <g
+     transform="translate(234,18)"
+     id="g2652">
+    <path
+       fill="#000000"
+       fill-rule="evenodd"
+       d="M 0,1.0068455 C 0,0.45078007 0.44994876,0 1.0068455,0 H 12.993154 C 13.54922,0 14,0.44994876 14,1.0068455 V 12.993154 C 14,13.54922 13.550051,14 12.993154,14 H 1.0068455 C 0.45078007,14 0,13.550051 0,12.993154 Z M 2,2 H 6 V 6 H 2 Z m 0,6 h 4 v 4 H 2 Z M 8,2 h 4 V 6 H 8 Z m 0,6 h 4 v 4 H 8 Z"
+       transform="translate(2,2)"
+       id="path2650" />
+  </g>
+  <g
+     transform="translate(0,35)"
+     id="g2162">
+    <path
+       fill="#000000"
+       fill-rule="evenodd"
+       d="M 6,14 H 8 V 12 H 6 Z M 3,8 H 5 V 6 H 3 Z M 3,2 H 5 V 0 H 3 Z m 3,9 H 8 V 9 H 6 Z M 3,14 H 5 V 12 H 3 Z M 0,5 H 2 V 3 H 0 Z m 0,9 H 2 V 12 H 0 Z M 0,2 H 2 V 0 H 0 Z M 0,8 H 2 V 6 H 0 Z M 6,8 H 8 V 6 H 6 Z M 0,11 H 2 V 9 H 0 Z m 12,0 h 2 V 9 h -2 z m 0,3 h 2 v -2 h -2 z m 0,-6 h 2 V 6 h -2 z m 0,-3 h 2 V 3 h -2 z m 0,-5 v 2 h 2 V 0 Z M 6,2 H 8 V 0 H 6 Z m 3,0 h 2 V 0 H 9 Z M 6,5 H 8 V 3 H 6 Z m 3,9 h 2 V 12 H 9 Z M 9,8 h 2 V 6 H 9 Z"
+       transform="translate(2,2)"
+       opacity="0.54"
+       id="path2160" />
+  </g>
+  <g
+     transform="translate(19,35)"
+     id="g2170">
+    <g
+       fill="#000000"
+       fill-rule="evenodd"
+       transform="translate(2,2)"
+       id="g2168">
+      <path
+         d="M 8,3 H 6 v 2 h 2 z m 3,3 H 9 v 2 h 2 z M 8,6 H 6 V 8 H 8 Z M 8,9 H 6 v 2 H 8 Z M 5,6 H 3 v 2 h 2 z"
+         opacity="0.54"
+         id="path2164" />
+      <path
+         d="M 0,0 H 14 V 14 H 0 Z M 12,12 V 2 H 2 v 10 z"
+         id="path2166" />
+    </g>
+  </g>
+  <g
+     transform="translate(37,36)"
+     id="g3066">
+    <path
+       fill="#000000"
+       fill-rule="evenodd"
+       d="M 0,1 C 0,0.45 0.45,0 1,0 h 14 c 0.55,0 1,0.45 1,1 v 11 c 0,0.55 -0.45,1 -1,1 H 3.5 L 0,16 Z M 3,11 V 8.53 L 9.88,1.65 c 0.2,-0.2 0.51,-0.2 0.71,0 l 1.77,1.77 c 0.2,0.2 0.2,0.51 0,0.71 L 5.47,11 Z m 4.5,0 2,-2 H 13 v 2 z"
+       transform="translate(1,1)"
+       id="path3064" />
+  </g>
+  <g
+     transform="translate(55,34)"
+     id="g2826">
+    <path
+       fill="#000000"
+       fill-rule="evenodd"
+       d="M 0,0 H 14 V 2 H 0 Z M 0,4 H 6 V 6 H 0 Z m 0,4 h 2 v 2 H 0 Z M 8,4 h 6 V 6 H 8 Z M 4,8 h 2 v 2 H 4 Z m 4,0 h 2 v 2 H 8 Z m 4,0 h 2 v 2 h -2 z"
+       transform="translate(2,4)"
+       id="path2824" />
+  </g>
+  <g
+     transform="translate(71,34)"
+     id="g2210">
+    <path
+       fill="#000000"
+       fill-rule="evenodd"
+       d="m 1,8 v 4 H 13 V 0 H 1 V 4 H 0 v 4 z m 2,0 v 2 H 13 V 2 H 3 V 4 H 4 V 8 Z M 4,5 h 9 V 7 H 4 Z"
+       transform="translate(2,3)"
+       id="path2208" />
+  </g>
+  <g
+     transform="matrix(1,0,0,1.0791367,90.5,33.52518)"
+     id="g3609">
+    <polygon
+       fill="#000000"
+       fill-rule="evenodd"
+       points="0.5,4.5 1.56,5.56 5,2.12 8.44,5.56 9.5,4.5 5,0 "
+       transform="translate(4,6)"
+       id="polygon3607" />
+  </g>
+  <g
+     transform="matrix(0,1,-1.0791367,0,124.47482,33.5)"
+     id="g3609-0">
+    <polygon
+       fill="#000000"
+       fill-rule="evenodd"
+       points="0.5,4.5 1.56,5.56 5,2.12 8.44,5.56 9.5,4.5 5,0 "
+       transform="translate(4,6)"
+       id="polygon3607-3" />
+  </g>
+  <g
+     transform="matrix(-1,0,0,-1.0791367,141.5,52.47482)"
+     id="g3609-0-2">
+    <polygon
+       fill="#000000"
+       fill-rule="evenodd"
+       points="9.5,4.5 5,0 0.5,4.5 1.56,5.56 5,2.12 8.44,5.56 "
+       transform="translate(4,6)"
+       id="polygon3607-3-9" />
+  </g>
+  <g
+     transform="matrix(0,-1,1.0791367,0,143.02518,52)"
+     id="g3609-0-2-7">
+    <polygon
+       fill="#000000"
+       fill-rule="evenodd"
+       points="1.56,5.56 5,2.12 8.44,5.56 9.5,4.5 5,0 0.5,4.5 "
+       transform="translate(4,6)"
+       id="polygon3607-3-9-3" />
+  </g>
+  <g
+     transform="matrix(1,0,0,0.99948909,164,34.008686)"
+     id="g3178">
+    <path
+       fill="#000000"
+       fill-rule="evenodd"
+       d="M 10.75,17 H 1.5574951 C 0.72874512,17 0.99935535,17 0.99935535,17 0.44148033,17 0,16.54922 0,15.993154 V 4.0068455 C 0,3.4499488 0.44547265,2.9992714 0.99499102,2.9983726 c 0,0 0.92982388,-0.00152 1.39226928,-0.00228 l 2.6133232,-0.00427 C 5.0005836,2.9918213 5,0.99182129 7,0.99182129 9,0.99182129 9.0394287,2.9918213 9,3 h 4.000193 C 13.556283,3 14,3.4451013 14,3.9941617 c 0,0 0,-0.3310904 0,0.4976596 V 6 H 12 V 5 H 11 V 6 H 3 V 5 H 2 v 10 h 7 v 2 z M 6,3 H 8 V 4 H 6 Z m 8,4 h -2 c -1.105,0 -2,0.895 -2,2 v 8 h 2 v -2 h 2 v 2 h 2 V 9 C 16,7.895 15.105,7 14,7 Z m -2,6 h 2 V 9 h -2 z"
+       transform="translate(1)"
+       id="path3176" />
+  </g>
+  <g
+     transform="translate(181,34)"
+     id="g1172">
+    <g
+       fill="none"
+       fill-rule="evenodd"
+       id="g1170">
+      <polygon
+         points="0,0 18,0 18,18 0,18 "
+         id="polygon1164" />
+      <path
+         fill="#000000"
+         d="m 8,16 h 2 V 14 H 8 Z M 5,4 H 7 V 2 H 5 Z M 5,16 H 7 V 14 H 5 Z M 2,7 H 4 V 5 H 2 Z m 0,9 H 4 V 14 H 2 Z M 2,4 H 4 V 2 H 2 Z m 0,9 H 4 V 11 H 2 Z m 12,0 h 2 v -2 h -2 z m 0,3 h 2 v -2 h -2 z m 0,-9 h 2 V 5 h -2 z m 0,-5 v 2 h 2 V 2 Z M 8,4 h 2 V 2 H 8 Z m 3,0 h 2 V 2 h -2 z m 0,12 h 2 v -2 h -2 z"
+         opacity="0.54"
+         id="path1166" />
+      <polygon
+         fill="#000000"
+         points="2,10 16,10 16,8 2,8 "
+         id="polygon1168" />
+    </g>
+  </g>
+  <g
+     transform="translate(197,34)"
+     id="g236">
+    <g
+       fill="#000000"
+       fill-rule="evenodd"
+       transform="translate(2,2)"
+       id="g234">
+      <path
+         d="M 3,14 H 5 V 12 H 3 Z M 0,5 H 2 V 3 H 0 Z M 0,2 H 2 V 0 H 0 Z M 3,8 H 5 V 6 H 3 Z M 3,2 H 5 V 0 H 3 Z M 0,14 H 2 V 12 H 0 Z M 0,8 H 2 V 6 H 0 Z m 0,3 H 2 V 9 H 0 Z M 12,0 v 2 h 2 V 0 Z m 0,8 h 2 V 6 h -2 z m 0,6 h 2 v -2 h -2 z m 0,-9 h 2 V 3 h -2 z m 0,6 h 2 V 9 h -2 z m -3,3 h 2 V 12 H 9 Z M 9,8 h 2 V 6 H 9 Z M 9,2 h 2 V 0 H 9 Z"
+         opacity="0.54"
+         id="path230" />
+      <polygon
+         points="6,0 6,14 8,14 8,0 "
+         id="polygon232" />
+    </g>
+  </g>
 </svg>

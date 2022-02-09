@@ -201,7 +201,7 @@
         value.rows = [];
         for (let i = 0; i < max; i++) {
           value.rows[i] = {
-            height: 22
+            height: 40
           };
         }
       }
@@ -532,12 +532,15 @@
         if (current.cell.rowspan > 1 || current.cell.colspan > 1) {
           this.addHistoryValues();
           // 取消合并
+          //alert(current.cell.rowspan)
+         // alert(current.cell.colspan)
           for (let i = 0; i < current.cell.rowspan; i++) {
             for (let j = 0; j < current.cell.colspan; j++) {
               if (i === 0 && j === 0) continue;
+
               this.setDataRowCol(current.row + i, current.col + j, {
                 text: "",
-                invisable: false,
+                invisable: false
               });
             }
           }
@@ -694,8 +697,7 @@
       addrowHandler() {
         console.log(this.current.row);
         this.value.rows.splice(this.current.row + 1, 0, {
-          height: 22,
-          dd: "ddd",
+          height: 40
         });
       },
       createColHeader(n) {
@@ -711,9 +713,13 @@
       },
       addRowCol(type) {
         console.log(this.current);
+        console.log('type');
         console.log(type);
         console.log(this.current.row);
+        console.log(this.current.col);
         let _this = this;
+        let originalValueStr = JSON.stringify(_this.value)
+        let originalValue = JSON.parse(originalValueStr)
         if (this.current && this.current.row >= 0) {
           let row = this.current.row;
           let col = this.current.col;
@@ -722,23 +728,21 @@
           console.log(type);
           if (type == "addbefore") {
             this.value.rows.splice(row, 0, {
-              height: 22,
-              qqqqq: "ddd"
+              height: 40
             });
-            _this.editValuePos(row, "row", "edit");
+            _this.editValuePos(row, "row", "edit",originalValue);
           } else if (type == "addafter") {
             this.value.rows.splice(row + 1, 0, {
-              height: 22,
-              dd: "ddd"
+              height: 40
             });
-            _this.editValuePos(row + 1, "row", "edit");
+            _this.editValuePos(row + 1, "row", "edit",originalValue);
           } else if (type == "addleft") {
             this.value.cols.splice(col, 0, {
               width: 200,
               index: col
             });
             _this.editColIndex();
-            _this.editValuePos(col, "col", "edit");
+            _this.editValuePos(col, "col", "edit",originalValue);
           } else if (type == "addright") {
             this.value.cols.splice(col + 1, 0, {
               width: 200,
@@ -746,14 +750,26 @@
             });
 
             _this.editColIndex();
-            _this.editValuePos(col + 1, "col", "edit");
+            _this.editValuePos(col + 1, "col", "edit",originalValue);
             //addRowColSpan(col, type);
           } else if (type == "delrow") {
+            if(_this.value.rows.length>1){
+
+
             this.value.rows.splice(row, 1);
-            _this.editValuePos(row, "row", "del");
+            _this.editValuePos(row, "row", "del",originalValue);
+            }
           } else if (type == "delcol") {
+            // console.log('delcol')
+            // console.log(col)
+           // console.log(this.value.cols)
+           if(_this.value.cols.length>1){
             this.value.cols.splice(col, 1);
-            _this.editValuePos(row, "col", "del");
+          //  console.log(this.value.cols)
+          //  console.log(col)
+
+            _this.editValuePos(col, "col", "del",originalValue);
+            }
             // addRowColSpan(col, type);
           }
           // this.editorBar = false;
@@ -891,7 +907,7 @@
         }
       },
       showContexMenu(event) {
-        console.log("dddddddddddddddddd");
+        //console.log("dddddddddddddddddd");
         console.log(event);
         event.preventDefault();
         var x = event.clientX;
@@ -900,13 +916,15 @@
         this.axis.y = y;
         console.log(this.axis);
       },
-      editValuePos(posIndex, type, controlType) {
+      editValuePos(posIndex, type, controlType,t) {
         let _this = this;
 
-        let tempStr = JSON.stringify(_this.value);
+        let tempStr = JSON.stringify(t);
         let tempObj = JSON.parse(tempStr); // { ...this.value };
+        console.log('tempObj')
         console.log(tempObj);
         if (type == "row") {
+
           _this.editRow(posIndex, controlType, tempObj);
         }
 
@@ -930,8 +948,11 @@
           posMark = 1;
           minusPos = 1;
         }
-
-        for (let r = 0; r < tempObj.rows.length; r++) {
+        console.log('posIndex')
+        console.log(posIndex)
+        console.log(controlType)
+        console.log(tempObj)
+        for (let r = 0; r <= tempObj.rows.length; r++) {
           _this.value[r] = undefined;
           if (r + posMark > posIndex) {
             if (tempObj[r + minusPos]) {
@@ -957,11 +978,13 @@
 
         for (var r = 0; r < tempObj.rows.length; r++) {
           if (tempObj && tempObj[r]) {
-            for (var c = 0; c < tempObj.cols.length; c++) {
+            for (var c = 0; c <= tempObj.cols.length; c++) {
               if (_this.value[r][c]) {
                 _this.value[r][c] = undefined;
               }
-
+              console.log('inde equals')
+              console.log(c+posMark)
+              console.log(posIndex)
               if (c + posMark > posIndex) {
                 if (tempObj[r][c + minusPos]) {
                   _this.value[r][c] = tempObj[r][c + minusPos];
@@ -970,6 +993,8 @@
                 if (c != posIndex) {
                   if (tempObj[r][c]) {
                     _this.value[r][c] = tempObj[r][c];
+                  }else{
+                    console.log('eques')
                   }
                 }
               }

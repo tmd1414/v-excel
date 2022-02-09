@@ -1,6 +1,7 @@
 @border-style: 1px solid #e0e2e4;
 @icon-size: 18px;
 
+
 .v-excel {
   font-size: 14px;
   line-height: normal;
@@ -17,7 +18,7 @@
       border-collapse: collapse;
       border-spacing: 0;
       color: #000;
-  
+
       td, th {
         transition: background .1s ease,color .1s ease;
         border-bottom: @border-style;
@@ -29,18 +30,18 @@
         // height: 22px;
         line-height: 22px;
       }
-  
+
       td.active, th.active {
         background: #f3f7ff!important;
       }
-  
+
       th {
         border-top: @border-style;
         text-align: center;
       }
-  
 
-  
+
+
       td:first-child, th:first-child {
         border-left: @border-style;
         text-align: center;
@@ -255,7 +256,7 @@
         opacity: 0.6;
       }
     }
-    
+
     > .label {
       float: right;
       opacity: .8;
@@ -433,5 +434,64 @@
   &.arrow-right {
     left: -8 * @icon-size;
     top: -1 * @icon-size;
+  }
+  &.table-border-up {
+    left: -9 * @icon-size;
+    top: -1 * @icon-size;
+  }
+  &.table-border-right {
+    left: -10 * @icon-size;
+    top: -1 * @icon-size;
+  }
+  &.table-border-down {
+    left: -11 * @icon-size;
+    top: -1 * @icon-size;
+  }
+  &.table-border-left {
+    left: -12 * @icon-size;
+    top: -1 * @icon-size;
+  }
+  &.table-border-all {
+    left: -13 * @icon-size;
+    top: -1 * @icon-size;
+  }
+  &.table-border-none {
+    left: 0 * @icon-size;
+    top: -2 * @icon-size;
+  }
+  &.table-border-out {
+    left:-1 * @icon-size;
+    top: -2 * @icon-size;
+  }
+
+}
+.ve-icon-self {
+  background-image: url('./assets/sprite.svg');
+  position: absolute;
+  width: 262px;
+  height: 444px;
+  &.angle-up{
+    left: -5 * @icon-size;
+    top: -2 * @icon-size;
+  }
+  &.angle-right{
+    left: -6 * @icon-size;
+    top: -2 * @icon-size;
+  }
+  &.angle-down{
+    left: -7 * @icon-size;
+    top: -2 * @icon-size;
+  }
+  &.angle-left{
+    left: -8 * @icon-size;
+    top: -2 * @icon-size;
+  }
+  &.row-del{
+    left: -12 * @icon-size;
+    top: -2 * @icon-size;
+  }
+  &.col-del{
+    left: -13 * @icon-size;
+    top: -2 * @icon-size;
   }
 }

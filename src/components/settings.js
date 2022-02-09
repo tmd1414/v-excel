@@ -70,7 +70,8 @@ const defaultCellAttrs = {
   wordWrap: 'normal',
   invisable: false,
   rowspan: 1,
-  colspan: 1
+  colspan: 1,
+  borderTop:'',
 }
 
 const cellStyle = (attrs) => {
