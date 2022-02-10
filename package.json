@@ -1,7 +1,7 @@
 {
   "name": "v-excel",
   "description": "A Vue.js project",
-  "version": "1.0.18",
+  "version": "1.0.19",
   "author": "fq_li <tmd1414114@163.com>",
   "license": "MIT",
   "private": false,
